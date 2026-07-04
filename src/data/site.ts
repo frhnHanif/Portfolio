@@ -4,7 +4,7 @@ export const siteConfig = {
   location: "Salatiga, Central Java",
   email: "farhanhanifr4@gmail.com",
   linkedin: "https://linkedin.com/in/farhanhanifrahmansyah",
-  github: "https://github.com/farhanhanifr",
+  github: "https://github.com/frhnHanif",
   education: {
     degree: "Electrical Engineering (Information Technology Concentration)",
     university: "Universitas Diponegoro",

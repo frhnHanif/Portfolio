@@ -19,7 +19,7 @@ const badgeVariants = {
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-bl from-gray-50/40 via-white to-gray-100/20">
+    <section id="skills" className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-bl from-gray-50/40 via-white to-gray-100/20">
       <div className="max-w-4xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}

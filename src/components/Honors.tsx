@@ -6,7 +6,7 @@ import { honors } from "@/data/experience";
 
 export default function Honors() {
   return (
-    <section id="honors" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50/50 via-white to-gray-100/30">
+    <section id="honors" className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50/50 via-white to-gray-100/30">
       <div className="max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

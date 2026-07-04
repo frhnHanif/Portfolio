@@ -15,7 +15,7 @@ const timelineItemVariants = {
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+    <section id="experience" className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-4xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -46,13 +46,13 @@ export default function Experience() {
                 viewport={{ once: true, margin: "-50px" }}
                 className="relative"
               >
-                <div className="absolute -left-[31px] w-3 h-3 bg-gray-900 rounded-full border-2 border-white" />
-                <div className="bg-white p-5 rounded-xl border border-gray-200/50 shadow-sm hover:shadow-md transition-shadow">
+                <div className="absolute -left-[26px] sm:-left-[31px] w-3 h-3 bg-gray-900 rounded-full border-2 border-white" />
+                <div className="bg-white p-4 sm:p-5 rounded-xl border border-gray-200/50 shadow-sm hover:shadow-md transition-shadow">
                   <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-2">
-                    <h4 className="font-semibold text-gray-900">
+                    <h4 className="font-semibold text-gray-900 text-sm sm:text-base">
                       {exp.title}
                     </h4>
-                    <span className="text-xs text-gray-400 bg-gray-100 px-2 py-0.5 rounded-full">
+                    <span className="text-xs text-gray-400 bg-gray-100 px-2 py-0.5 rounded-full shrink-0">
                       {exp.startDate} — {exp.endDate}
                     </span>
                   </div>
@@ -76,7 +76,7 @@ export default function Experience() {
               Organization
             </h3>
           </div>
-          <div className="relative border-l-2 border-gray-200 pl-6 space-y-8">
+          <div className="relative border-l-2 border-gray-200 pl-5 sm:pl-6 space-y-6 sm:space-y-8">
             {organizationExperience.map((exp, i) => (
               <motion.div
                 key={exp.id}
@@ -87,13 +87,13 @@ export default function Experience() {
                 viewport={{ once: true, margin: "-50px" }}
                 className="relative"
               >
-                <div className="absolute -left-[31px] w-3 h-3 bg-gray-400 rounded-full border-2 border-white" />
-                <div className="bg-white p-5 rounded-xl border border-gray-200/50 shadow-sm hover:shadow-md transition-shadow">
+                <div className="absolute -left-[26px] sm:-left-[31px] w-3 h-3 bg-gray-400 rounded-full border-2 border-white" />
+                <div className="bg-white p-4 sm:p-5 rounded-xl border border-gray-200/50 shadow-sm hover:shadow-md transition-shadow">
                   <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-2">
-                    <h4 className="font-semibold text-gray-900">
+                    <h4 className="font-semibold text-gray-900 text-sm sm:text-base">
                       {exp.title}
                     </h4>
-                    <span className="text-xs text-gray-400 bg-gray-100 px-2 py-0.5 rounded-full">
+                    <span className="text-xs text-gray-400 bg-gray-100 px-2 py-0.5 rounded-full shrink-0">
                       {exp.startDate} — {exp.endDate}
                     </span>
                   </div>

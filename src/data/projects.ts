@@ -13,15 +13,15 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: "simaggot",
-    title: "SIMAGGOT",
+    title: "SiMaggot",
     description:
       "Smart Vertical Biopond IoT System — ESP32-based data acquisition + Laravel/MySQL dashboard for real-time monitoring and aquaculture management.",
     longDescription:
       "An integrated IoT system for vertical biopond aquaculture. Uses ESP32 microcontrollers for real-time data acquisition (water quality sensors, temperature, pH), connected via MQTT to a Laravel/MySQL dashboard. Features include real-time monitoring, data visualization, digital logbook, and full aquaculture cycle management.",
     techStack: ["ESP32", "MQTT", "Laravel", "MySQL", "IoT", "PHP"],
     image: "/projects/simaggot.png",
-    link: "#",
-    github: "https://github.com/farhanhanifr",
+    link: "https://simaggot.undip.us",
+    github: "https://github.com/frhnHanif/TA-SiMaggot",
     featured: true,
   },
   {
@@ -33,8 +33,8 @@ export const projects: Project[] = [
       "A waste monitoring system powered by ESP32 microcontrollers with load-cell sensors. Data is transmitted via MQTT protocol to a Laravel-based dashboard for real-time visualization and analytics of waste levels.",
     techStack: ["ESP32", "MQTT", "Laravel", "Sensors", "IoT"],
     image: "/projects/ecoscale.png",
-    link: "#",
-    github: "https://github.com/farhanhanifr",
+    link: "https://ecoscale.undip.us/dashboard",
+    github: "https://github.com/frhnHanif/smart_scale_project",
     featured: false,
   },
   {
@@ -47,7 +47,7 @@ export const projects: Project[] = [
     techStack: ["Laravel", "MySQL", "PHP", "Bootstrap"],
     image: "/projects/ngudia-wilujeng.png",
     link: "#",
-    github: "https://github.com/farhanhanifr",
+    github: "https://github.com/frhnHanif/bank-sampah",
     featured: false,
   },
 ];

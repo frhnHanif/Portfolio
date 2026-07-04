@@ -25,7 +25,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight"
+          className="text-3xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight px-2"
         >
           {siteConfig.name}
         </motion.h1>
@@ -34,7 +34,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="mt-4 text-lg sm:text-xl text-gray-500 leading-relaxed"
+          className="mt-4 text-base sm:text-xl text-gray-500 leading-relaxed px-2"
         >
           {siteConfig.headline}
         </motion.p>

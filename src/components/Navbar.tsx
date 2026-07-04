@@ -28,7 +28,7 @@ export default function Navbar() {
         transition={{ duration: 0.4, ease: "easeOut" }}
         className="fixed top-6 left-1/2 -translate-x-1/2 z-50"
       >
-        <nav className="flex items-center gap-6 px-6 py-3 bg-white/70 backdrop-blur-xl border border-gray-200/40 rounded-full shadow-lg shadow-gray-200/20">
+        <nav className="flex items-center gap-3 sm:gap-6 px-4 sm:px-6 py-2.5 sm:py-3 bg-white/70 backdrop-blur-xl border border-gray-200/40 rounded-full shadow-lg shadow-gray-200/20">
           <div className="hidden md:flex items-center gap-6">
             {navLinks.map((link) => (
               <a
