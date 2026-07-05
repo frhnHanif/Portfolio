@@ -5,6 +5,8 @@ export const siteConfig = {
   email: "farhanhanifr4@gmail.com",
   linkedin: "https://linkedin.com/in/farhanhanifrahmansyah",
   github: "https://github.com/frhnHanif",
+  photo: "/photo.jpg",
+  logoUndip: "/logo-undip.svg",
   education: {
     degree: "Electrical Engineering (Information Technology Concentration)",
     university: "Universitas Diponegoro",

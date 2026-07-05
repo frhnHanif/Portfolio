@@ -7,6 +7,7 @@ export interface Experience {
   startDate: string;
   endDate: string;
   description?: string;
+  logo?: string;
 }
 
 export const workExperience: Experience[] = [
@@ -15,6 +16,7 @@ export const workExperience: Experience[] = [
     type: "work",
     title: "Software Engineering Lab Assistant",
     organization: "Universitas Diponegoro",
+    logo: "/logo-undip.svg",
     startDate: "Feb 2026",
     endDate: "Present",
     description:
@@ -25,6 +27,7 @@ export const workExperience: Experience[] = [
     type: "work",
     title: "Database Systems Lab Assistant",
     organization: "Universitas Diponegoro",
+    logo: "/logo-undip.svg",
     startDate: "Aug 2025",
     endDate: "Dec 2025",
     description:
@@ -35,6 +38,7 @@ export const workExperience: Experience[] = [
     type: "work",
     title: "General Software Engineer Intern",
     organization: "Formulatrix Indonesia",
+    logo: "/logo-formulatrix.svg",
     startDate: "Jan 2025",
     endDate: "Mar 2025",
     description:
@@ -46,8 +50,9 @@ export const organizationExperience: Experience[] = [
   {
     id: "bkti-chair",
     type: "organization",
-    title: "Ketua BKTI",
-    organization: "HME Universitas Diponegoro",
+    title: "Ketua",
+    organization: "Biro Konsentrasi Teknologi Informasi",
+    logo: "/logo-bkti.svg",
     startDate: "Jun 2025",
     endDate: "Apr 2026",
   },
@@ -56,6 +61,7 @@ export const organizationExperience: Experience[] = [
     type: "organization",
     title: "Kepala Divisi Dokumentasi",
     organization: "HME Universitas Diponegoro",
+    logo: "/logo-hme.svg",
     startDate: "2024",
     endDate: "2025",
   },
@@ -64,6 +70,7 @@ export const organizationExperience: Experience[] = [
     type: "organization",
     title: "Kepala Divisi Komunikasi",
     organization: "MAHADISA",
+    logo: "/logo-mahadisa.svg",
     startDate: "2024",
     endDate: "2025",
     description: "Best Division Award 2024/2025",
@@ -73,6 +80,7 @@ export const organizationExperience: Experience[] = [
     type: "organization",
     title: "Staff Forum Studi Teknik",
     organization: "Universitas Diponegoro",
+    logo: "/logo-undip.svg",
     startDate: "2023",
     endDate: "2024",
   },

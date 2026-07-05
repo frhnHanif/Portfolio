@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { Briefcase, Users } from "lucide-react";
 import { workExperience, organizationExperience } from "@/data/experience";
@@ -48,6 +49,19 @@ export default function Experience() {
               >
                 <div className="absolute -left-[26px] sm:-left-[31px] w-3 h-3 bg-gray-900 rounded-full border-2 border-white" />
                 <div className="bg-white p-4 sm:p-5 rounded-xl border border-gray-200/50 shadow-sm hover:shadow-md transition-shadow">
+                  <div className="flex items-start gap-3">
+                    {exp.logo && (
+                      <div className="w-9 h-9 sm:w-10 sm:h-10 shrink-0 overflow-hidden">
+                        <Image
+                          src={exp.logo}
+                          alt={exp.organization}
+                          width={40}
+                          height={40}
+                          className="object-contain"
+                        />
+                      </div>
+                    )}
+                    <div className="flex-1 min-w-0">
                   <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-2">
                     <h4 className="font-semibold text-gray-900 text-sm sm:text-base">
                       {exp.title}
@@ -62,6 +76,8 @@ export default function Experience() {
                       {exp.description}
                     </p>
                   )}
+                    </div>
+                  </div>
                 </div>
               </motion.div>
             ))}
@@ -89,6 +105,19 @@ export default function Experience() {
               >
                 <div className="absolute -left-[26px] sm:-left-[31px] w-3 h-3 bg-gray-400 rounded-full border-2 border-white" />
                 <div className="bg-white p-4 sm:p-5 rounded-xl border border-gray-200/50 shadow-sm hover:shadow-md transition-shadow">
+                  <div className="flex items-start gap-3">
+                    {exp.logo && (
+                      <div className="w-9 h-9 sm:w-10 sm:h-10 shrink-0 overflow-hidden">
+                        <Image
+                          src={exp.logo}
+                          alt={exp.organization}
+                          width={40}
+                          height={40}
+                          className="object-contain"
+                        />
+                      </div>
+                    )}
+                    <div className="flex-1 min-w-0">
                   <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-2">
                     <h4 className="font-semibold text-gray-900 text-sm sm:text-base">
                       {exp.title}
@@ -101,6 +130,8 @@ export default function Experience() {
                   {exp.description && (
                     <p className="text-sm text-gray-400 mt-2">{exp.description}</p>
                   )}
+                    </div>
+                  </div>
                 </div>
               </motion.div>
             ))}

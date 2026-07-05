@@ -1,7 +1,7 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
-import { GraduationCap } from "lucide-react";
 import { siteConfig } from "@/data/site";
 
 export default function About() {
@@ -24,8 +24,14 @@ export default function About() {
 
           {/* Education */}
           <div className="flex items-start gap-4 p-6 bg-white rounded-xl border border-gray-200/50 shadow-sm">
-            <div className="p-2 bg-gray-100 rounded-lg shrink-0">
-              <GraduationCap size={20} className="text-gray-700" />
+            <div className="w-12 h-12 shrink-0 overflow-hidden">
+              <Image
+                src={siteConfig.logoUndip}
+                alt="Universitas Diponegoro"
+                width={48}
+                height={48}
+                className="object-contain"
+              />
             </div>
             <div>
               <h3 className="font-semibold text-gray-900">
