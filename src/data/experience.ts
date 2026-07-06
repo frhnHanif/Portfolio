@@ -50,7 +50,7 @@ export const organizationExperience: Experience[] = [
   {
     id: "bkti-chair",
     type: "organization",
-    title: "Ketua",
+    title: "Chairman",
     organization: "Biro Konsentrasi Teknologi Informasi",
     logo: "/logo-bkti.svg",
     startDate: "Jun 2025",
@@ -59,7 +59,7 @@ export const organizationExperience: Experience[] = [
   {
     id: "documentation-head",
     type: "organization",
-    title: "Kepala Divisi Dokumentasi",
+    title: "Head of Documentation Division",
     organization: "HME Universitas Diponegoro",
     logo: "/logo-hme.svg",
     startDate: "2024",
@@ -68,7 +68,7 @@ export const organizationExperience: Experience[] = [
   {
     id: "communication-head",
     type: "organization",
-    title: "Kepala Divisi Komunikasi",
+    title: "Head of KOMINFO Division",
     organization: "MAHADISA",
     logo: "/logo-mahadisa.svg",
     startDate: "2024",
@@ -78,9 +78,9 @@ export const organizationExperience: Experience[] = [
   {
     id: "fst-staff",
     type: "organization",
-    title: "Staff Forum Studi Teknik",
-    organization: "Universitas Diponegoro",
-    logo: "/logo-undip.svg",
+    title: "Staff of Internal Champion Team",
+    organization: "Forum Studi Teknik",
+    logo: "/logo-fst.svg",
     startDate: "2023",
     endDate: "2024",
   },
