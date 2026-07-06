@@ -62,8 +62,8 @@ export const organizationExperience: Experience[] = [
     title: "Head of Documentation Division",
     organization: "HME Universitas Diponegoro",
     logo: "/logo-hme.svg",
-    startDate: "2024",
-    endDate: "2025",
+    startDate: "Aug 2023",
+    endDate: "Dec 2025",
   },
   {
     id: "communication-head",
@@ -71,8 +71,8 @@ export const organizationExperience: Experience[] = [
     title: "Head of KOMINFO Division",
     organization: "MAHADISA",
     logo: "/logo-mahadisa.svg",
-    startDate: "2024",
-    endDate: "2025",
+    startDate: "Aug 2023",
+    endDate: "Aug 2025",
     description: "Best Division Award 2024/2025",
   },
   {
@@ -81,8 +81,8 @@ export const organizationExperience: Experience[] = [
     title: "Staff of Internal Champion Team",
     organization: "Forum Studi Teknik",
     logo: "/logo-fst.svg",
-    startDate: "2023",
-    endDate: "2024",
+    startDate: "Feb 2022",
+    endDate: "Sep 2024",
   },
 ];
 
